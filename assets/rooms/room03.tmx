@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="9">
+  <properties>
+    <property name="index" value="3" type="int" />
+    <property name="name" value="Room 3" />
+    <property name="left" value="255" type="int" />
+    <property name="right" value="4" type="int" />
+    <property name="up" value="1" type="int" />
+    <property name="down" value="255" type="int" />
+    <property name="zone" value="0" type="int" />
+  </properties>
+  <tileset firstgid="1" source="../tileset.tsx" />
+  <layer id="1" name="Tiles" width="20" height="15">
+    <data encoding="csv">
+19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,1,1,1,19,
+21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,21,
+20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,
+19,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,19,
+21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,21,
+20,1,1,1,1,1,1,1,1,1,1,22,22,22,22,22,22,22,22,20,
+19,1,1,28,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,19,
+21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,21,
+20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,30,
+19,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,30,
+21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,30,
+20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,30,
+19,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,30,
+21,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,
+20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20
+</data>
+  </layer>
+  <objectgroup id="2" name="Spawns">
+    <object id="1" name="Switch" class="Switch" x="48" y="96">
+      <point />
+    </object>
+    <object id="2" name="GateClosed" class="GateClosed" x="304" y="128">
+      <point />
+    </object>
+    <object id="3" name="GateClosed" class="GateClosed" x="304" y="144">
+      <point />
+    </object>
+    <object id="4" name="Drone" class="Drone" x="160" y="160">
+      <point />
+    </object>
+    <object id="5" name="GateClosed" class="GateClosed" x="304" y="160">
+      <point />
+    </object>
+    <object id="6" name="GateClosed" class="GateClosed" x="304" y="176">
+      <point />
+    </object>
+    <object id="7" name="Bit" class="Bit" x="32" y="192">
+      <point />
+    </object>
+    <object id="8" name="GateClosed" class="GateClosed" x="304" y="192">
+      <point />
+    </object>
+  </objectgroup>
+</map>

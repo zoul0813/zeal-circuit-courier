@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="3">
+  <properties>
+    <property name="index" value="2" type="int" />
+    <property name="name" value="Room 2" />
+    <property name="left" value="255" type="int" />
+    <property name="right" value="255" type="int" />
+    <property name="up" value="255" type="int" />
+    <property name="down" value="4" type="int" />
+    <property name="zone" value="0" type="int" />
+  </properties>
+  <tileset firstgid="1" source="../tileset.tsx" />
+  <layer id="1" name="Tiles" width="20" height="15">
+    <data encoding="csv">
+19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,
+21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,21,
+20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,
+19,22,22,22,22,22,1,1,1,1,1,1,1,1,1,1,1,1,1,19,
+21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,21,
+20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,
+19,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,19,
+21,1,1,1,1,1,1,1,22,22,22,22,22,1,1,1,1,1,1,21,
+20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,
+19,1,1,1,1,1,1,1,1,1,1,1,1,1,22,22,22,38,1,19,
+21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,23,1,21,
+20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,23,1,20,
+19,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,23,1,19,
+21,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,18,23,18,21,
+20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,23,20,20
+</data>
+  </layer>
+  <objectgroup id="2" name="Spawns">
+    <object id="1" name="Bit" class="Bit" x="48" y="32">
+      <point />
+    </object>
+    <object id="2" name="Drone" class="Drone" x="176" y="80">
+      <point />
+    </object>
+  </objectgroup>
+</map>

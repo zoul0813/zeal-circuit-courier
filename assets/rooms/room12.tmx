@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="8">
+  <properties>
+    <property name="index" value="12" type="int" />
+    <property name="name" value="Room 12" />
+    <property name="left" value="11" type="int" />
+    <property name="right" value="255" type="int" />
+    <property name="up" value="13" type="int" />
+    <property name="down" value="255" type="int" />
+    <property name="zone" value="2" type="int" />
+  </properties>
+  <tileset firstgid="1" source="../tileset.tsx" />
+  <layer id="1" name="Tiles" width="20" height="15">
+    <data encoding="csv">
+131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,1,131,131,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,133,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,132,
+130,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,131,
+133,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,133,
+132,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,132,
+131,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,131,
+133,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,133,
+132,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,132,
+131,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,131,
+133,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,133,
+132,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,132,
+131,1,1,1,24,53,24,24,24,53,24,24,24,53,24,26,1,1,1,131,
+133,129,130,129,130,129,130,129,130,129,130,129,130,129,130,129,130,54,130,133,
+132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,130,132,132
+</data>
+  </layer>
+  <objectgroup id="2" name="Spawns">
+    <object id="1" name="Drone" class="Drone" x="144" y="64">
+      <point />
+    </object>
+    <object id="2" name="Bit" class="Bit" x="16" y="192">
+      <point />
+    </object>
+    <object id="3" name="FanOn" class="FanOn" x="80" y="192">
+      <point />
+    </object>
+    <object id="4" name="FanOn" class="FanOn" x="144" y="192">
+      <point />
+    </object>
+    <object id="5" name="FanOn" class="FanOn" x="208" y="192">
+      <point />
+    </object>
+    <object id="6" name="Socket" class="Socket" x="240" y="192">
+      <point />
+    </object>
+    <object id="7" name="SocketFan" class="SocketFan" x="272" y="208">
+      <point />
+    </object>
+  </objectgroup>
+</map>

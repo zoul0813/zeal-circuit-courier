@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="1">
+  <properties>
+    <property name="index" value="17" type="int" />
+    <property name="name" value="Room 17" />
+    <property name="left" value="16" type="int" />
+    <property name="right" value="255" type="int" />
+    <property name="up" value="255" type="int" />
+    <property name="down" value="255" type="int" />
+    <property name="zone" value="3" type="int" />
+  </properties>
+  <tileset firstgid="1" source="../tileset.tsx" />
+  <layer id="1" name="Tiles" width="20" height="15">
+    <data encoding="csv">
+147,147,147,147,147,147,147,147,147,147,147,147,147,147,147,147,147,147,147,147,
+149,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,149,
+148,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,148,
+147,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,147,
+149,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,149,
+148,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,148,
+147,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,147,
+149,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,149,
+148,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,148,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,147,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,149,
+1,1,1,1,1,1,1,1,1,34,35,1,1,1,1,1,1,1,1,148,
+1,1,1,1,1,1,1,1,1,36,37,1,1,1,1,1,1,1,1,147,
+146,145,146,145,146,145,146,145,146,145,146,145,146,145,146,145,146,145,146,149,
+148,148,148,148,148,148,148,148,148,148,148,148,148,148,148,148,148,148,148,148
+</data>
+  </layer>
+</map>

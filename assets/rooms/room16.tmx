@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="16">
+  <properties>
+    <property name="index" value="16" type="int" />
+    <property name="name" value="Room 16" />
+    <property name="left" value="15" type="int" />
+    <property name="right" value="17" type="int" />
+    <property name="up" value="255" type="int" />
+    <property name="down" value="255" type="int" />
+    <property name="zone" value="3" type="int" />
+  </properties>
+  <tileset firstgid="1" source="../tileset.tsx" />
+  <layer id="1" name="Tiles" width="20" height="15">
+    <data encoding="csv">
+147,147,147,147,147,147,147,147,147,147,147,147,147,147,147,147,147,147,147,147,
+149,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,149,
+148,26,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,26,148,
+147,22,22,22,22,1,1,1,1,1,1,1,1,1,1,22,22,22,22,147,
+149,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,149,
+148,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,148,
+147,1,1,1,1,1,1,1,1,1,1,1,1,1,1,28,1,1,1,147,
+149,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,149,
+148,1,1,1,1,1,1,1,22,22,22,22,1,1,1,1,1,1,1,148,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,25,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,25,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,25,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,25,
+146,145,146,145,146,145,53,52,52,52,26,51,51,54,146,145,146,145,146,145,
+148,148,148,148,148,148,145,146,145,146,145,146,145,146,148,148,148,148,148,148
+</data>
+  </layer>
+  <objectgroup id="2" name="Spawns">
+    <object id="1" name="Socket" class="Socket" x="16" y="32">
+      <point />
+    </object>
+    <object id="2" name="Socket" class="Socket" x="288" y="32">
+      <point />
+    </object>
+    <object id="3" name="Drone" class="Drone" x="160" y="80">
+      <point />
+    </object>
+    <object id="4" name="Switch" class="Switch" x="240" y="96">
+      <point />
+    </object>
+    <object id="5" name="Bit" class="Bit" x="128" y="112">
+      <point />
+    </object>
+    <object id="6" name="Door" class="Door" x="304" y="144">
+      <point />
+    </object>
+    <object id="7" name="Door" class="Door" x="304" y="160">
+      <point />
+    </object>
+    <object id="8" name="Drone" class="Drone" x="64" y="176">
+      <point />
+    </object>
+    <object id="9" name="Door" class="Door" x="304" y="176">
+      <point />
+    </object>
+    <object id="10" name="Bit" class="Bit" x="16" y="192">
+      <point />
+    </object>
+    <object id="11" name="Bit" class="Bit" x="288" y="192">
+      <point />
+    </object>
+    <object id="12" name="Door" class="Door" x="304" y="192">
+      <point />
+    </object>
+    <object id="13" name="FanOn" class="FanOn" x="96" y="208">
+      <point />
+    </object>
+    <object id="14" name="Socket" class="Socket" x="160" y="208">
+      <point />
+    </object>
+    <object id="15" name="FanOff" class="FanOff" x="208" y="208">
+      <point />
+    </object>
+  </objectgroup>
+</map>

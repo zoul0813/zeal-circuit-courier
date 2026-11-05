@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="7">
+  <properties>
+    <property name="index" value="0" type="int" />
+    <property name="name" value="Room 0" />
+    <property name="left" value="255" type="int" />
+    <property name="right" value="1" type="int" />
+    <property name="up" value="255" type="int" />
+    <property name="down" value="255" type="int" />
+    <property name="zone" value="0" type="int" />
+  </properties>
+  <tileset firstgid="1" source="../tileset.tsx" />
+  <layer id="1" name="Tiles" width="20" height="15">
+    <data encoding="csv">
+19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,
+21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,21,
+20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,
+19,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,19,
+21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,21,
+20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,
+19,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,19,
+21,1,1,1,1,1,1,1,1,1,22,22,22,22,1,1,1,1,1,21,
+20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,
+19,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,19,
+21,1,1,1,1,1,22,22,22,22,1,1,1,1,1,1,1,1,1,25,
+20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,25,
+19,1,1,1,1,1,1,1,1,1,1,1,26,1,1,1,1,1,1,25,
+21,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,
+20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20
+</data>
+  </layer>
+  <objectgroup id="2" name="Spawns">
+    <object id="1" name="Bit" class="Bit" x="176" y="96">
+      <point />
+    </object>
+    <object id="2" name="Door" class="Door" x="304" y="160">
+      <point />
+    </object>
+    <object id="3" name="Door" class="Door" x="304" y="176">
+      <point />
+    </object>
+    <object id="4" name="Player" class="Player" x="16" y="192">
+      <point />
+    </object>
+    <object id="5" name="Socket" class="Socket" x="192" y="192">
+      <point />
+    </object>
+    <object id="6" name="Door" class="Door" x="304" y="192">
+      <point />
+    </object>
+  </objectgroup>
+</map>

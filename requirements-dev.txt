@@ -1,0 +1,3 @@
+Pillow
+# Optional X11 recording/input tools (Linux only).
+python-xlib; sys_platform == "linux"

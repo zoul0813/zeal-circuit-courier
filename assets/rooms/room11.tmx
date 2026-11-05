@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="8">
+  <properties>
+    <property name="index" value="11" type="int" />
+    <property name="name" value="Room 11" />
+    <property name="left" value="10" type="int" />
+    <property name="right" value="12" type="int" />
+    <property name="up" value="255" type="int" />
+    <property name="down" value="255" type="int" />
+    <property name="zone" value="2" type="int" />
+  </properties>
+  <tileset firstgid="1" source="../tileset.tsx" />
+  <layer id="1" name="Tiles" width="20" height="15">
+    <data encoding="csv">
+131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,
+133,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,25,
+132,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,26,1,1,25,
+131,22,22,22,1,1,1,1,1,1,1,1,1,1,1,129,130,129,130,129,
+133,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,133,
+132,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,132,
+131,1,1,1,1,1,1,1,1,28,1,1,1,1,1,1,1,1,1,131,
+133,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,133,
+132,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,132,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,131,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,133,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,132,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,131,
+130,129,130,129,53,129,130,129,130,129,130,129,130,129,54,129,130,129,130,133,
+132,132,132,132,129,132,132,132,132,132,132,132,132,132,129,132,132,132,132,132
+</data>
+  </layer>
+  <objectgroup id="2" name="Spawns">
+    <object id="1" name="Door" class="Door" x="304" y="16">
+      <point />
+    </object>
+    <object id="2" name="Bit" class="Bit" x="32" y="32">
+      <point />
+    </object>
+    <object id="3" name="Socket" class="Socket" x="256" y="32">
+      <point />
+    </object>
+    <object id="4" name="Door" class="Door" x="304" y="32">
+      <point />
+    </object>
+    <object id="5" name="Switch" class="Switch" x="144" y="96">
+      <point />
+    </object>
+    <object id="6" name="FanOn" class="FanOn" x="64" y="208">
+      <point />
+    </object>
+    <object id="7" name="FanOff" class="FanOff" x="224" y="208">
+      <point />
+    </object>
+  </objectgroup>
+</map>

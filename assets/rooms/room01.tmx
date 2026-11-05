@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="6">
+  <properties>
+    <property name="index" value="1" type="int" />
+    <property name="name" value="Room 1" />
+    <property name="left" value="0" type="int" />
+    <property name="right" value="255" type="int" />
+    <property name="up" value="255" type="int" />
+    <property name="down" value="3" type="int" />
+    <property name="zone" value="0" type="int" />
+  </properties>
+  <tileset firstgid="1" source="../tileset.tsx" />
+  <layer id="1" name="Tiles" width="20" height="15">
+    <data encoding="csv">
+19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,
+21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,21,
+20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,
+19,1,1,1,26,1,1,1,1,1,1,1,1,1,1,1,1,1,1,19,
+21,22,22,22,22,22,1,1,1,1,1,1,1,1,1,1,1,1,1,21,
+20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,
+19,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,19,
+21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,21,
+20,1,1,1,1,1,22,22,22,22,22,22,22,22,22,22,22,1,1,20,
+19,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,19,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,21,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,19,
+18,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,25,25,25,21,
+20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,1,1,1,20
+</data>
+  </layer>
+  <objectgroup id="2" name="Spawns">
+    <object id="1" name="Socket" class="Socket" x="64" y="48">
+      <point />
+    </object>
+    <object id="2" name="Bit" class="Bit" x="224" y="112">
+      <point />
+    </object>
+    <object id="3" name="Door" class="Door" x="256" y="208">
+      <point />
+    </object>
+    <object id="4" name="Door" class="Door" x="272" y="208">
+      <point />
+    </object>
+    <object id="5" name="Door" class="Door" x="288" y="208">
+      <point />
+    </object>
+  </objectgroup>
+</map>

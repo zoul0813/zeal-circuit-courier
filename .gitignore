@@ -1,0 +1,24 @@
+# Local build output
+build/
+build-*/
+lib/
+# Default CMake runtime output; includes local saves and hiscores
+bin/
+# Hiscores and saves the game writes next to its .bin (HostFS H:/)
+*.zhs
+*.sav
+# Recordings (tools/record.sh)
+videos/
+# Python caches from tools/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local developer environments, recordings and profiling output
+.venv/
+run/
+perf/
+
+# Local emulator settings and third-party ROM images
+zeal.ini
+roms/
